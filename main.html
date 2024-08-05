@@ -1,47 +1,22 @@
 <!DOCTYPE html>
-<html lang=“en”>
+<html>
 <head>
-<meta charset=“UTF-8”>
-<meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
-<title>Create a CSS Box Model</title>
-<style>
-table {
-width: 100%;
-border-collapse: collapse;
-}
-th, td {
-border: 1px solid black;
-padding: 10px;
-}
-th {
-background-color: #f2f2f2;
-}
-code {
-font-family: monospace;
-background-color: #f9f9f9;
-}
-</style>
+    <title>Box Model</title>
+    <style>
+        .box {
+            width: 300px;
+            background-color: lightblue;
+            border: 15px solid blue;
+            padding: 50px;
+            margin: 20px;
+        }
+    </style>
 </head>
 <body>
-<h1>CSS Box Model</h1>
-<p>Create a box model by referring to the image and the specifications provided below.</p>
-<img src=“https://d3dyfaf3iutrxo.cloudfront.net/thumbnail/assignment/question/46a785da34654d83b1824428074ba595.jpg” alt=“No Image” style=“height: 300px; width:500px;” />
-<h2>Requirements</h2>
-<table>
-<tr><th>Component</th><th>Description</th></tr>
-<tr><td>Width</td><td>The width of the box must be exactly 300px.</td></tr>
-<tr><td>Background Color</td><td>The background color must be light blue.</td></tr>
-<tr><td>Border</td><td>The box must have a 15px solid blue border.</td></tr>
-<tr><td>Padding</td><td>The padding inside the box must be 50px.</td></tr>
-<tr><td>Margin</td><td>The margin around the box must be 20px.</td></tr>
-<tr><td>Text Content</td><td>The box must contain the exact text: <code>This is a demo of box model, try to replicate this box model in Html & Css and pass all the test cases.</code></td></tr>
-</table>
-<h2>Instructions</h2>
-<ol>
-<li>Study the given image and specifications to understand the desired box model.</li>
-<li>Create a <code>div</code> element to represent the box and apply the necessary inline CSS styles to achieve the required dimensions, colors, and spacing.</li>
-<li>Insert the specified text inside the box, ensuring that it matches exactly.</li>
-<li>Ensure that the final design aligns with the provided image and specifications, and that it passes all related tests.</li>
-</ol>
+    <div class="box">
+        This is a demo of box model, try to replicate this box model in HTML   
+ & CSS and pass all the test cases.
+    </div>   
+
 </body>
 </html>
